@@ -588,46 +588,52 @@
         </script>
         
         <!-- INÍCIO DA LEGENDA / CARTÃO INSTITUCIONAL (PPMI DIGITAL TWIN) -->
-    <div id="annotation-card" style="
-      position: absolute;
-      top: 24px;
-      right: 24px;
-      width: 310px;
-      background: rgba(255, 255, 255, 0.92);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(15, 32, 66, 0.15);
-      color: #0F2042;
-      padding: 16px 20px;
-      border-radius: 12px;
-      box-shadow: 0 10px 25px -5px rgba(15, 32, 66, 0.15);
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      z-index: 9999;
-      pointer-events: auto;
+   <div id="annotation-card" style="
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 360px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(15, 32, 66, 0.18);
+  color: #0F2042;
+  padding: 18px 22px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(15, 32, 66, 0.15);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  z-index: 9999;
+  pointer-events: auto;
+">
+  <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+    <!-- Ícone Técnico em vez de Número -->
+    <div style="
+      background: rgba(0, 123, 255, 0.1);
+      color: #007BFF;
+      border-radius: 8px;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
     ">
-      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
-        <span style="
-          background: #007BFF;
-          color: #ffffff;
-          border-radius: 50%;
-          width: 24px;
-          height: 24px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-weight: 700;
-          font-size: 12px;
-          flex-shrink: 0;
-          box-shadow: 0 2px 6px rgba(0, 123, 255, 0.4);
-        ">1</span>
-        <h4 style="margin: 0; font-size: 15px; font-weight: 700; color: #0F2042; letter-spacing: -0.2px;">
-          Secretaria Regional do Turismo, Mobilidade e Infraestruturas
-        </h4>
-      </div>
-      <p style="margin: 0; font-size: 12px; line-height: 1.5; color: #4A5568;">
-        Documentação fotorrealista por 3D Gaussian Splatting para monitorização contínua e suporte à decisão no PPMI Digital Twin.
-      </p>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+      </svg>
     </div>
+    
+    <h4 style="margin: 0; font-size: 15px; font-weight: 700; color: #0F2042; line-height: 1.2;">
+      Secretaria Regional do Turismo, Mobilidade e Infraestruturas
+    </h4>
+  </div>
+
+  <p style="margin: 0; font-size: 13px; line-height: 1.5; color: #334155;">
+    Documentação fotorrealista por 3D Gaussian Splatting para monitorização contínua e suporte à decisão no PPMI Digital Twin.
+  </p>
+</div>
     <!-- FIM DA LEGENDA -->
     </body>
 </html>
